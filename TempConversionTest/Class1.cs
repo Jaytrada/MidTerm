@@ -27,7 +27,7 @@ namespace TempConversionTest
 
                 //Arrange
                 float TempInput = -1.0f;
-                string expectedOutput = "Your Input Tempreture is not within the range";
+                string expectedOutput = "Your input temperature is not within the acceptable range";
 
                 //Act
                 string result = _temp.TemperatureConverter(TempInput);
@@ -43,7 +43,7 @@ namespace TempConversionTest
 
                 //Arrange
                 float TempInput = -2.0f;
-                string expectedOutput = "Your Input Tempreture is not within the range";
+                string expectedOutput = "Your input temperature is not within the acceptable range";
 
                 //Act
                 string result = _temp.TemperatureConverter(TempInput);
@@ -58,7 +58,7 @@ namespace TempConversionTest
 
                 //Arrange
                 float TempInput = -5.0f;
-                string expectedOutput = "Your Input Tempreture is not within the range";
+                string expectedOutput = "Your input temperature is not within the acceptable range";
 
                 //Act
                 string result = _temp.TemperatureConverter(TempInput);
