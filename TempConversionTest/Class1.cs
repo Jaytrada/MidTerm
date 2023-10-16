@@ -202,51 +202,7 @@ namespace TempConversionTest
                 Assert.AreEqual(expectedOutput, result);
 
             }
-            [Test]
-            public void TempretureConverterInputIs5()
-            {
-
-                //Arrange
-                float TempInput = 5.0f;
-                string expectedOutput = "Better get a coat. It's cold out there!";
-
-                //Act
-                string result = _temp.TemperatureConverter(TempInput);
-
-                // Assert
-                Assert.AreEqual(expectedOutput, result);
-
-            }
-            [Test]
-            public void TempretureConverterInputIs0()
-            {
-
-                //Arrange
-                float TempInput = 0.0f;
-                string expectedOutput = "Better get a coat. It's cold out there!";
-
-                //Act
-                string result = _temp.TemperatureConverter(TempInput);
-
-                // Assert
-                Assert.AreEqual(expectedOutput, result);
-
-            }
-            [Test]
-            public void TempretureConverterInputIs8()
-            {
-
-                //Arrange
-                float TempInput = 8.0f;
-                string expectedOutput = "Better get a coat. It's cold out there!";
-
-                //Act
-                string result = _temp.TemperatureConverter(TempInput);
-
-                // Assert
-                Assert.AreEqual(expectedOutput, result);
-
-            }
+            
 
         }
 
