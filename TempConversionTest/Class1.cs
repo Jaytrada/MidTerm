@@ -156,12 +156,12 @@ namespace TempConversionTest
 
             }
             [Test]
-            public void TempretureConverterInputIsMinus1()
+            public void TempretureConverterInputIs15()
             {
 
                 //Arrange
-                float TempInput = -1;
-                string expectedOutput = "Your Input Tempreture is not within the range";
+                float TempInput = 15.0f;
+                string expectedOutput = "It's very pleasant";
 
                 //Act
                 string result = _temp.TemperatureConverter(TempInput);
@@ -171,12 +171,12 @@ namespace TempConversionTest
 
             }
             [Test]
-            public void TempretureConverterInputIsMinus1()
+            public void TempretureConverterInputIs17()
             {
 
                 //Arrange
-                float TempInput = -1;
-                string expectedOutput = "Your Input Tempreture is not within the range";
+                float TempInput = 17.0f;
+                string expectedOutput = "It's very pleasant";
 
                 //Act
                 string result = _temp.TemperatureConverter(TempInput);
@@ -186,12 +186,12 @@ namespace TempConversionTest
 
             }
             [Test]
-            public void TempretureConverterInputIsMinus1()
+            public void TempretureConverterInputIs10()
             {
 
                 //Arrange
-                float TempInput = -1;
-                string expectedOutput = "Your Input Tempreture is not within the range";
+                float TempInput = 10.0f;
+                string expectedOutput = "It's very pleasant";
 
                 //Act
                 string result = _temp.TemperatureConverter(TempInput);
