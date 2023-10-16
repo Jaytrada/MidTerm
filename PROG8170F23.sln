@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PROG8170F23", "PROG8170F2022\PROG8170F23.csproj", "{6BFF7D82-1B51-409B-B6ED-514465C1947C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempConversionTest", "TempConversionTest\TempConversionTest.csproj", "{CB5CEA65-1730-4E12-9D46-9C32AC4F4A2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6BFF7D82-1B51-409B-B6ED-514465C1947C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BFF7D82-1B51-409B-B6ED-514465C1947C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BFF7D82-1B51-409B-B6ED-514465C1947C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB5CEA65-1730-4E12-9D46-9C32AC4F4A2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB5CEA65-1730-4E12-9D46-9C32AC4F4A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB5CEA65-1730-4E12-9D46-9C32AC4F4A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB5CEA65-1730-4E12-9D46-9C32AC4F4A2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
