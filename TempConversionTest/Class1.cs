@@ -21,7 +21,9 @@ namespace TempConversionTest
                 _temp = new Temp();
             }
 
-            [Test] public void TempretureConverterInputIsMinus1() {
+            [Test]
+            public void TempretureConverterInputIsMinus1()
+            {
 
                 //Arrange
                 float TempInput = -1.0f;
@@ -201,12 +203,12 @@ namespace TempConversionTest
 
             }
             [Test]
-            public void TempretureConverterInputIsMinus1()
+            public void TempretureConverterInputIs5()
             {
 
                 //Arrange
-                float TempInput = -1;
-                string expectedOutput = "Your Input Tempreture is not within the range";
+                float TempInput = 5.0f;
+                string expectedOutput = "Better get a coat. It's cold out there!";
 
                 //Act
                 string result = _temp.TemperatureConverter(TempInput);
@@ -216,12 +218,12 @@ namespace TempConversionTest
 
             }
             [Test]
-            public void TempretureConverterInputIsMinus1()
+            public void TempretureConverterInputIs0()
             {
 
                 //Arrange
-                float TempInput = -1;
-                string expectedOutput = "Your Input Tempreture is not within the range";
+                float TempInput = 0.0f;
+                string expectedOutput = "Better get a coat. It's cold out there!";
 
                 //Act
                 string result = _temp.TemperatureConverter(TempInput);
@@ -231,12 +233,12 @@ namespace TempConversionTest
 
             }
             [Test]
-            public void TempretureConverterInputIsMinus1()
+            public void TempretureConverterInputIs8()
             {
 
                 //Arrange
-                float TempInput = -1;
-                string expectedOutput = "Your Input Tempreture is not within the range";
+                float TempInput = 8.0f;
+                string expectedOutput = "Better get a coat. It's cold out there!";
 
                 //Act
                 string result = _temp.TemperatureConverter(TempInput);
@@ -248,5 +250,5 @@ namespace TempConversionTest
 
         }
 
-       
+    }
 }
